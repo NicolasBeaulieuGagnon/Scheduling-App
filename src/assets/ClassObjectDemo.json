@@ -1,0 +1,20 @@
+[
+  {
+    "_id": "358129",
+    "className": "Power Hour HIIT",
+    "classType": "virtual",
+    "repeat": false,
+    "price": 5,
+
+    "classCreator": {
+      "id": "723801",
+      "handle": "Kelly Green",
+      "avatar": "/assets/ProfileImage.jpg"
+    },
+    "date": "2021-05-11T14:54:33-04:00",
+    "duration": 60,
+    "registered": 0,
+    "classDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "whiteBoard": ""
+  }
+]
