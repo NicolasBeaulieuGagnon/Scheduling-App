@@ -7,7 +7,7 @@ import { BsArrowRight } from "react-icons/bs";
 import avatarSrc from "../assets/ProfileImage.jpg";
 
 //This is all easthetic to display the booked classes
-const ClassCard = ({ savedClass }) => {
+const ClassCard = ({ savedClass, index }) => {
   const {
     classCreator,
     classDescription,
@@ -19,7 +19,7 @@ const ClassCard = ({ savedClass }) => {
   } = savedClass;
   return (
     <Wrapper key={_id}>
-      Your Next Class
+      {index === 0 ? `Your Next Class` : <div style={{ opacity: 0 }}> . </div>}
       <CreatorWrapper>
         <AvatarWrapper>
           <CreatorAvatar src={avatarSrc} />

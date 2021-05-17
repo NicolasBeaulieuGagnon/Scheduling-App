@@ -14,9 +14,13 @@ const Classes = ({ allClasses, setAllClasses }) => {
   return (
     <Wrapper>
       {allClasses.length > 0 &&
-        allClasses.map((savedClass) => {
+        allClasses.map((savedClass, index) => {
           return (
-            <ClassCard key={savedClass.className} savedClass={savedClass} />
+            <ClassCard
+              key={savedClass.className}
+              index={index}
+              savedClass={savedClass}
+            />
           );
         })}
     </Wrapper>
