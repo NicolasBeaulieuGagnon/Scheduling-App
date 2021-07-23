@@ -10,6 +10,8 @@ import UserAccount from "./Pages/UserAccount";
 import FAQBoard from "./Pages/FAQBoard";
 
 const App = () => {
+  // Adding comments to test out branch
+  // and things that could go wrong.
   return (
     <Wrapper>
       <GlobalStyle />
