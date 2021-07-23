@@ -12,6 +12,7 @@ import FAQBoard from "./Pages/FAQBoard";
 const App = () => {
   // Adding comments to test out branch
   // and things that could go wrong.
+  const myFunction = () => {};
   return (
     <Wrapper>
       <GlobalStyle />
