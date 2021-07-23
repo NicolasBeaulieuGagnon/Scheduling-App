@@ -13,6 +13,7 @@ const App = () => {
   // Adding comments to test out branch
   // and things that could go wrong.
   const anOtherFunction = () => {};
+  const myFunction = () => {};
   return (
     <Wrapper>
       <GlobalStyle />
